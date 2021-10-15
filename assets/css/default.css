@@ -1,0 +1,125 @@
+
+
+.top-header-social li a {
+    display: inline-flex;
+    align-items: center
+}
+
+
+
+.top-header-social li a svg {
+    display: inline-block;
+    margin-right: 10px
+}
+
+.default-btn,
+.optional-btn {
+    font-weight: 600
+    
+}
+
+.why-choose-area {
+    background-image: url('data:image/jpeg;base64,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')
+}
+
+
+.why-choose-item .inner-content .icon i {
+    background-color: rgb(82, 64, 64);
+    color: rgb(211, 60, 60);
+}
+
+.top-products-item .products-image .sale span {
+    background-color: #e73022;
+    color: white
+}
+
+
+.cart-favs {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-evenly
+}
+
+.cart-favs .rounded-icon-wrapper {
+    display: inline-flex;
+    border: solid 1px #3ab743;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px
+}
+
+.cart-favs .rounded-icon-wrapper i {
+    color: #3ab743
+}
+
+.copyright-area {
+    background-color: #f8fdf7
+}
+
+.copyright-area .copyright-area-content p {
+    color: #2c2828
+}
+
+.copyright-area .copyright-area-content ul li a {
+    color: #2c2828
+}
+
+.copyright-area .copyright-area-content ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: center
+}
+
+.subfooter-area {
+    text-align: center;
+    background-color: #f8fdf7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: solid 3px #3ab743;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw
+}
+
+.subfooter-area ul.top-header-social {
+    height: 100%;
+    align-items: center;
+    display: flex
+}
+
+.navbar-footer {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    height: 100%
+}
+
+.why-choose-area {
+    background-image: url(../../assets/img/food/kamala-saraswathi-7g2vvEw7IVg-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.why-choose-item .inner-content .icon i {
+    background-color: #46a149
+}
+
+.others-food-item h3 {
+    color: green;
+}
+
+.partners-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+sourceMappingURL=default.css.map */

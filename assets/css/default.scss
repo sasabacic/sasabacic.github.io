@@ -1,0 +1,115 @@
+$main-color: #3ab743;
+$optional-color: #dff5e1;
+$white-color: #ffffff;
+$black-color: #111111;
+$paragraph-color: #6b6b84;
+$font-size: 16px;
+$transition: .5s;
+
+.top-header-social {
+    li {
+        a {
+            display: inline-flex;
+            align-items: center;
+
+            svg {
+                display: inline-block;
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+.default-btn,
+.optional-btn {
+    font-weight: 600;
+}
+.top-products-item {
+    .products-image {
+        .sale {
+            span {
+                background-color: #e73022;
+                color: white;
+            }
+        }
+    }
+}
+.cart-favs {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-evenly;
+    .rounded-icon-wrapper {
+        display: inline-flex;
+        /* padding: 5px; */
+        border: solid 1px $main-color;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        i {
+            color: $main-color;
+        }
+    }
+}
+.copyright-area {
+    background-color: #f8fdf7
+}
+.copyright-area .copyright-area-content p {
+    color: #2c2828;
+}
+.copyright-area .copyright-area-content ul li a {
+    color: #2c2828;
+}
+.copyright-area .copyright-area-content ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.subfooter-area {
+        text-align: center;
+        background-color: #f8fdf7;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: solid 3px $main-color;
+        align-items: center;
+        padding-left: 3vw;
+        padding-right: 3vw;
+        ul.top-header-social {
+            height: 100%;
+            align-items: center;
+            display: flex;
+        }
+}
+.navbar-footer {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    height: 100%;
+    /*flex-wrap: wrap;*/
+}
+.why-choose-area {
+    background-image: url(../../assets/img/food/kamala-saraswathi-7g2vvEw7IVg-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.why-choose-item .inner-content .icon i {
+    background-color: #46a149;
+}
+.partners-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* flex-wrap: wrap; */
+}
+/*
+.top-header-social li a i {
+    background-color: #3ab743;
+    color: #ffffff;
+}*/

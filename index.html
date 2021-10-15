@@ -1,27 +1,630 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="UnesiJezik (hr,en)">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        
+        <!-- 
+            <meta name="description" content="#####">
+            <meta prefix="og: http://ogp.me/ns#" property="og:title" content="####" />
+            <meta prefix="og: http://ogp.me/ns#" property="og:description" content="###" />
+            <meta prefix="og: http://ogp.me/ns#" property="og:image" content="####"/>
+            <meta prefix="og: http://ogp.me/ns#" property="og:url" content="####"/>
+            <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="####"/>
+            <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="hr" />
+            <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+            <meta name="twitter:card" content="summary_large_image"> --> 
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Bootstrap CSS --> 
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Animate CSS --> 
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Boxicons CSS -->
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        <!-- Flaticon CSS -->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- Nice Select CSS -->
+        <link rel="stylesheet" href="assets/css/nice-select.min.css">
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Owl Carousel Default CSS -->
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Odometer CSS -->
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Hello,world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+        <!-- New CSS -->
+        <link rel="stylesheet" href="assets/css/default.css">
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Responsive CSS -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="assets/css/responsive.css">
+		
+		<title>Digitalni vrt -  proizvodi uzgojeni na OPG-u na starinski način, bez pesticida i umjetnih gnojiva</title>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+
+    <body>
+
+        <!-- Start Preloader Area -->
+        <div class="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Top Header Area -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <ul class="top-header-social">
+                            <li>
+                                <a href="#" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart mr-2" viewBox="0 0 16 16">
+                                        <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                                    </svg>
+                                    Favoriti
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3 mr-2" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                                    </svg>
+                                    Košarica
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill mr-2" viewBox="0 0 16 16">
+                                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                    </svg>
+                                    Moj račun
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Header Area -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area">
+            <div class="main-responsive-nav">
+                <div class="container">
+                    <div class="main-responsive-menu">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/img/logo_final.png" alt="image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-navbar">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/logo_final.png" alt="image">
+                        </a>
+
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Proizvodi
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Akcije
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Novosti
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Recepti
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        O nama
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Certifikati
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">
+                                        Kontakt
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="others-options d-flex align-items-center">
+                                <div class="option-item">
+                                    <form class="search-box">
+                                        <input type="text" class="form-control" placeholder="Traži">
+                                        <button type="submit"><i class="flaticon-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="others-option-for-responsive">
+                <div class="container">
+                    <div class="dot-menu">
+                        <div class="inner">
+                            <div class="circle circle-one"></div>
+                            <div class="circle circle-two"></div>
+                            <div class="circle circle-three"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="option-inner">
+                            <div class="others-options d-flex align-items-center">
+
+                                <div class="option-item">
+                                    <form class="search-box">
+                                        <input type="text" class="form-control" placeholder="Traži">
+                                        <button type="submit"><i class="flaticon-search"></i></button>
+                                    </form>
+                                </div>
+
+                                <div class="option-item">
+                                    <div class="burger-menu">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <div class="main-banner">
+            <div class="main-banner-item banner-item-two">
+                <div class="d-flex align-items-center h-100">
+                   
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="main-slider-content">
+                                        <span class="edit-me">Ponuda tjedna</span>
+                                        <h1>BIO Limun neprskani<br> akcija -50% </h1>
+                                        <p class="">Neprskani limun uzgojen na otoku Visu, našeg partnerskog OPG-a Bio Issa</p>
+                                        <div class="slider-btn">
+                                            <a href="#" class="default-btn">Vidi sve akcije</a>
+                                            <a href="#" class="optional-btn">Dodaj u košaricu</a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                  
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Top Products Area -->
+        <section class="top-products-area pb-70 pt-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Popularni proizvodi</h2>
+                    <p>Pogledajte izbor naših najpopularnijih proizvoda, uzgojenih na našem OPG-u na starinski način, bez pesticida i umjetnih gnojiva</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="top-products-item">
+                            <div class="products-image">
+                                <a href="shop-details.html"><img src="assets/img/top-products/top-products-1.jpg" alt="image"></a>
+                                <div class="sale edit-me">
+                                    <span>-%</span>
+                                </div>
+                            </div>
+
+                            <div class="products-content">
+                                <h3>
+                                    <a href="shop-details.html">Jagoda</a>
+                                </h3>
+                                <div class="price">
+                                    <span class="new-price">32 kn/kg</span>
+                                </div>
+                                <ul class="rating">
+                                    <li>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bxs-star'></i>
+                                        <i class='bx bx-star'></i>
+                                    </li>
+                                </ul>
+                                <div class="d-flex cart-favs">
+                                    <a href="#" class="rounded-icon-wrapper"><i class="flaticon-heart"></i></a>
+                                    <a href="cart.html" class="optional-btn">Dodaj u košaricu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="top-products-item">
+                          <div class="products-image">
+                              <a href="shop-details.html"><img src="data:image/jpeg;base64,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" alt="image"></a>
+                              <div class="sale edit-me">
+                                  <span>-%</span>
+                              </div>
+                          </div>
+
+                          <div class="products-content">
+                              <h3>
+                                  <a href="shop-details.html">Višnja</a>
+                              </h3>
+                              <div class="price">
+                                  <span class="new-price">15 kn/kg</span>
+                              </div>
+                              <ul class="rating">
+                                  <li>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bx-star'></i>
+                                  </li>
+                              </ul>
+                              <div class="d-flex cart-favs">
+                                  <a href="#" class="rounded-icon-wrapper"><i class="flaticon-heart"></i></a>
+                                  <a href="cart.html" class="optional-btn">Dodaj u košaricu</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="top-products-item">
+                          <div class="products-image">
+                              <a href="shop-details.html"><img src="assets/img/top-products/top-products-1.jpg" alt="image"></a>
+                              <div class="sale edit-me">
+                                  <span>-%</span>
+                              </div>
+                          </div>
+
+                          <div class="products-content">
+                              <h3>
+                                  <a href="shop-details.html">Banana</a>
+                              </h3>
+                              <div class="price">
+                                  <span class="new-price">27 kn/kg</span>
+                              </div>
+                              <ul class="rating">
+                                  <li>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bxs-star'></i>
+                                      <i class='bx bx-star'></i>
+                                  </li>
+                              </ul>
+                              <div class="d-flex cart-favs">
+                                  <a href="#" class="rounded-icon-wrapper"><i class="flaticon-heart"></i></a>
+                                  <a href="cart.html" class="optional-btn">Dodaj u košaricu</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                    
+
+                </div>
+            </div>
+        </section>
+        <!-- End Top Products Area -->
+
+        <!-- Start Why Choose Area -->
+        <section class="why-choose-area pt-100">
+            <div class="container">
+                <div class="why-choose-item">
+                    <div class="content">
+                        <span class="edit-me">Zašto opg digitalni vrt?</span>
+                        <h3>Zdrava hrana za sve</h3>
+                        <p>Jesti zdravo ne bi trebalo biti kompliciran pothvat koji će nam isprazniti novčanik. Uzgoj hrane na način kako su to radili naši stari naš je imperativ, a trudimo se da bude pristupačna svakome.</p>
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="icon">
+                            <i class="flaticon-leaf edit-me"></i>
+                        </div>
+                        <h4>Organic</h4>
+                        <p>Prirodna proizvodnja bez umjetnih gnojiva, pesticida i bilo kojih drugih kemijskih sredstava.</p>
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="icon">
+                            <i class="flaticon-plant edit-me"></i>
+                        </div>
+                        <h4>Fast and Easy</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse</p>
+                    </div>
+
+                    <div class="inner-content">
+                        <div class="icon">
+                            <i class="flaticon-medal edit-me"></i>
+                        </div>
+                        <h4>High Quality</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Why Choose Area -->
+        <!-- Start Partner Area -->
+        <div class="partner-area ptb-100 pb-0">
+            <div class="container">
+                <div class="partners-wrapper edit-me">
+                    <div class="partner-item">
+                        <img src="assets/img/logotipovi/38-eu-eko-proizvod-9836304422.jpg" alt="image">
+                    </div>
+
+                    <div class="partner-item">
+                        <img src="assets/img/logotipovi/GMO-free-graphic.png" alt="image">
+                    </div>
+
+                    <div class="partner-item">
+                        <img src="assets/img/logotipovi/eko-proizvod.png" alt="image">
+                    </div>
+
+                    <div class="partner-item">
+                        <img src="assets/img/logotipovi/logo-300x196-300x196.png" alt="image">
+                    </div>
+
+                    <div class="partner-item">
+                        <img src="assets/img/logotipovi/ThinkstockPhotos-469539267.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Partner Area -->
+        <section class="others-food-area pt-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Recepti</h2>
+                    <p>Pripremili smo za Vas jednostavna i zdrava jela od naših organski uzgojenih namirnica i proizvoda</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="others-food-item">
+                            <img src="assets/img/featured-products/recept1.png" alt="image">
+                            
+                            <div class="content">
+                                <h3 class="edit-me">Zeleni smoothie</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="others-food-item">
+                            <img src="assets/img/featured-products/recept2.png" alt="image">
+                            
+                            <div class="content">
+                                <h3>Krem juha od mrkve i tikve butternut</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                        <div class="others-food-item">
+                            <img src="assets/img/featured-products/recept3.png" alt="image">
+                            
+                            <div class="content">
+                                <h3>Bijeli i crveni hummus</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Blog Area -->
+        <section class="blog-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Novosti</h2>
+                    <p>Aktualnosti u našem OPG-u i našoj ponudi</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/blog/xenia-ntoula-y6dBhXGJkM8-unsplash.jpg" alt="image"></a>
+                                
+                                <div class="date">
+                                    <span>11. listopada 2021.</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>
+                                    <a href="#">Sudjelovali smo na regionalnom sajmu OPG-ova u Sisku</a>
+                                </h3>
+                                <a href="#" class="blog-btn">Pročitaj više +</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-blog-item">
+                            <div class="image">
+                                <a href="#"><img src="assets/img/blog/pexels-mareefe-672101.jpg" alt="image"></a>
+                                
+                                <div class="date">
+                                    <span>16. studenog 2021.</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h3>
+                                    <a href="#">Krenula jesenska berba jabuka i grožđa.</a>
+                                </h3>
+                                <a href="#" class="blog-btn">Pročitaj više +</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Blog Area -->
+
+        <div class="subfooter-area">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo_final.png" alt="image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <ul class="navbar-footer">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Proizvodi
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Akcije
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Novosti
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Recepti
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                O nama
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Certifikati
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Kontakt
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul class="top-header-social">
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Start Copy Right Area -->
+        <div class="copyright-area">
+
+            <div class="container">
+                
+                <div class="copyright-area-content">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12">
+                            <ul class="">
+                                <li>
+                                    <a href="#">Copyright © 2021. Digitalni vrt</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pravila o privatnosti</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pravila o kolačićma</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Copy Right Area -->
+
+        <!-- Start Go Top Area -->
+        <div class="go-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </div>
+        <!-- End Go Top Area -->
+
+        <!-- Jquery Slim JS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+        <script src="assets/js/jquery.meanmenu.js"></script>
+        <!-- Nice Select JS -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- Magnific Popup JS -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Odometer JS -->
+        <script src="assets/js/odometer.min.js"></script>
+        <!-- Jquery Appear JS -->
+        <script src="assets/js/jquery.appear.min.js"></script>
+        <!-- Ajaxchimp JS -->
+		<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+		<!-- Form Validator JS -->
+		<script src="assets/js/form-validator.min.js"></script>
+		<!-- Contact JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Wow JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
